@@ -1,0 +1,472 @@
+{
+  "carousel": [
+    {
+      "id": 1,
+      "image": "https://lh3.googleusercontent.com/d/11cQB7PPbGCIfcPsh-q59qlg4OEyRJr8M?authuser=0",
+      "title": "Munnar",
+      "description": "A popular hill station known for its sprawling tea plantations, scenic landscapes, and cool climate."
+    },
+    {
+      "id": 2,
+      "image": "https://lh3.googleusercontent.com/d/12W2RR8y8i11BUIKWM58Nv12Oijltn_iS?authuser=0",
+      "title": "Guruvayur Temple",
+      "description": "An important pilgrimage site dedicated to Lord Krishna, attracting devotees from all over India."
+    },
+    {
+      "id": 3,
+      "image": "https://lh3.googleusercontent.com/d/11gPAE0P0I5W7OiZTiff3kfjYTjrgySNC?authuser=0",
+      "title": "Sabarimala Sree Ayyappa Temple",
+      "description": "One of the most renowned pilgrimage sites in India, dedicated to Lord Ayyappa and situated amidst the dense forests of the Western Ghats."
+    },
+    {
+      "id": 4,
+      "image": "https://lh3.googleusercontent.com/d/11MbvqMbBP4QE1il33pOot52V4kxZ61I1?authuser=0",
+      "title": "Fort Kochi",
+      "description": "A historic neighborhood known for its colonial architecture, charming streets, and the famous Chinese Fishing Nets."
+    },
+    {
+      "id": 5,
+      "image": "https://lh3.googleusercontent.com/d/11DAMkk9W-Hf7SzWgmORJMCB_lUtaKKwk?authuser=0",
+      "title": "Alleppey Backwaters",
+      "description": "The intricate network of canals, rivers, and lakes offers a tranquil and picturesque cruising experience on traditional houseboats."
+    }
+  ],
+  "logo": [
+    {
+      "image": "https://lh3.googleusercontent.com/d/1-8_dS-GeiRMyczRzJn73nbaNgNcZpwjd?authuser=0"
+    }
+  ],
+  "auth": [
+    {
+      "image": "https://lh3.googleusercontent.com/d/13KLIZgnomUqk4tjsorpRUfQQprYZkYdU?authuser=0"
+    }
+  ],
+  "districts": [
+    {
+      "id": 1,
+      "image": "https://lh3.googleusercontent.com/d/1-GtlMg3IQFUaswHD02YVMHxNbo9Wl_KN?authuser=0",
+      "title": "Alappuzha",
+      "description": "Known for its backwaters and houseboats.",
+      "long_description": "Alappuzha, also known as Alleppey, is renowned for its picturesque backwaters, tranquil houseboat cruises, and vibrant boat races.",
+      "places_to_visit": [
+        {
+          "id": 101,
+          "name": "Alleppey Backwaters",
+          "image": "https://lh3.googleusercontent.com/d/11DAMkk9W-Hf7SzWgmORJMCB_lUtaKKwk?authuser=0",
+          "description": "The intricate network of canals, rivers, and lakes offers a tranquil and picturesque cruising experience on traditional houseboats."
+        },
+        {
+          "id": 102,
+          "name": "Alappuzha Beach",
+          "image": "https://lh3.googleusercontent.com/d/11EKTzPnuv9nBrm5plbbOG1C-gitXaPzg?authuser=0",
+          "description": "A popular tourist destination known for its beautiful sunsets and a historic lighthouse, making it a perfect spot for a leisurely evening."
+        },
+        {
+          "id": 103,
+          "name": "Krishnapuram Palace",
+          "image": "https://lh3.googleusercontent.com/d/12ayFdsufK4_6qUuLauldEQPF_ugfOZq2?authuser=0",
+          "description": "An 18th-century palace known for its stunning architecture, murals, and the largest mural painting in Kerala, 'Gajendra Moksha'."
+        },
+        {
+          "id": 104,
+          "name": "Pathiramanal Island",
+          "image": "https://lh3.googleusercontent.com/d/13Ax1-61VcFNRG8LRf0aiYTo1QsibW1o8?authuser=0",
+          "description": "A small island in the Vembanad Lake, known for its rich avian population, attracting bird watchers and nature lovers."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://lh3.googleusercontent.com/d/1-j3evYVBYIA4M5J0iQu_ppPjG1wKA8wA?authuser=0",
+      "title": "Ernakulam",
+      "description": "Commercial capital of Kerala.",
+      "long_description": "Ernakulam, located in the heart of Kochi, is a bustling city known for its vibrant commercial activities and historical significance.",
+      "places_to_visit": [
+        {
+          "id": 201,
+          "name": "Fort Kochi",
+          "image": "https://lh3.googleusercontent.com/d/11MbvqMbBP4QE1il33pOot52V4kxZ61I1?authuser=0",
+          "description": "A historic neighborhood known for its colonial architecture, charming streets, and the famous Chinese Fishing Nets."
+        },
+        {
+          "id": 202,
+          "name": "Marine Drive",
+          "image": "https://lh3.googleusercontent.com/d/11_jUotkFkVLU1G2U2jAF2Lg6ObJjUlJA?authuser=0",
+          "description": "A scenic waterfront promenade offering stunning views of the backwaters and the sunset, popular for evening walks."
+        },
+        {
+          "id": 203,
+          "name": "Jew Town",
+          "image": "https://lh3.googleusercontent.com/d/12X4pOaNSK9KCNQUt_mU-ZOWrI28VdfVv?authuser=0",
+          "description": "A vibrant area known for its spice markets, antique shops, and the historic Paradesi Synagogue, the oldest active synagogue in the Commonwealth."
+        },
+        {
+          "id": 204,
+          "name": "Mangalavanam Bird Sanctuary",
+          "image": "https://lh3.googleusercontent.com/d/12qUJ0HgsNcbfTq8KblfU51A0bsn7x_oz?authuser=0",
+          "description": "A green haven in the heart of the city, home to a variety of bird species and mangrove vegetation, offering a peaceful retreat."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://lh3.googleusercontent.com/d/1-SC51o5J74PpT9BicJF2M5dwB2_8Up9D?authuser=0",
+      "title": "Idukki",
+      "description": "Famous for hill stations and wildlife sanctuaries.",
+      "long_description": "Idukki district is known for its breathtaking hill stations, lush greenery, and abundant wildlife.",
+      "places_to_visit": [
+        {
+          "id": 301,
+          "name": "Munnar",
+          "image": "https://lh3.googleusercontent.com/d/11cQB7PPbGCIfcPsh-q59qlg4OEyRJr8M?authuser=0",
+          "description": "A popular hill station known for its sprawling tea plantations, scenic landscapes, and cool climate."
+        },
+        {
+          "id": 302,
+          "name": "Eravikulam National Park",
+          "image": "https://lh3.googleusercontent.com/d/11xwpSpUbx4DzILjQlDcrEZzVEOIvYZYG?authuser=0",
+          "description": "A UNESCO World Heritage site known for its population of the endangered Nilgiri Tahr and diverse flora and fauna."
+        },
+        {
+          "id": 303,
+          "name": "Idukki Dam",
+          "image": "https://lh3.googleusercontent.com/d/12R2GV6p2HXLdLM8WTPFmuhvtVfhAykrx?authuser=0",
+          "description": "One of Asia's highest arch dams, offering spectacular views of the surrounding hills and the reservoir."
+        },
+        {
+          "id": 304,
+          "name": "Thekkady",
+          "image": "https://lh3.googleusercontent.com/d/13GG9sD5Mdhqs_npMLJrlKVshYCKETb-u?authuser=0",
+          "description": "Home to the Periyar Wildlife Sanctuary, offering opportunities for wildlife spotting, boat cruises, and nature walks."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://lh3.googleusercontent.com/d/1-a6BZNiOR5L0ETyXLxsLFoRN6pKCh7UA?authuser=0",
+      "title": "Kannur",
+      "description": "Known for its beaches and Theyyam rituals.",
+      "long_description": "Kannur district is renowned for its pristine beaches, cultural heritage, and vibrant Theyyam rituals.",
+      "places_to_visit": [
+        {
+          "id": 401,
+          "name": "Payyambalam Beach",
+          "image": "https://lh3.googleusercontent.com/d/11fZcKaxpgcZqroVov4dGZEfJeJd25oCz?authuser=0",
+          "description": "Enjoy the golden sands and scenic views at Payyambalam Beach."
+        },
+        {
+          "id": 402,
+          "name": "Thalassery Fort",
+          "image": "https://lh3.googleusercontent.com/d/11mUU903BUy6M_AGQi2dWteVQThzfSbvl?authuser=0",
+          "description": "Explore the historical Thalassery Fort and learn about its colonial past."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://lh3.googleusercontent.com/d/1-hk8YuajeDsPl8Tfz5I0kkVwebV9UWPF?authuser=0",
+      "title": "Kasaragod",
+      "description": "Famous for its forts and temples.",
+      "long_description": "Kasaragod district is known for its ancient forts, scenic landscapes, and sacred temples.",
+      "places_to_visit": [
+        {
+          "id": 501,
+          "name": "Bekal Fort",
+          "image": "https://lh3.googleusercontent.com/d/11HMW7-xuBxp4zklfZIkwCwenYbRMV_kB?authuser=0",
+          "description": "Visit the historic Bekal Fort, with its stunning views of the Arabian Sea."
+        },
+        {
+          "id": 502,
+          "name": "Ananthapura Lake Temple",
+          "image": "https://lh3.googleusercontent.com/d/11-kvJsFvmAZ6SMSWPoxk5iuf2WAhORIv?authuser=0",
+          "description": "Explore the unique Ananthapura Lake Temple known for its vegetarian crocodile."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://lh3.googleusercontent.com/d/105-DL1RLhRS4eGY7bGkowg-cigcAUF7G?authuser=0",
+      "title": "Kollam",
+      "description": "Known for its cashew processing and Ashtamudi Lake.",
+      "long_description": "Kollam district is famous for its cashew processing industry, serene backwaters, and historic significance.",
+      "places_to_visit": [
+        {
+          "id": 601,
+          "name": "Ashtamudi Lake",
+          "image": "https://lh3.googleusercontent.com/d/116BJelhcnf_BnPwEyLriKVx3m1n8jJ4q?authuser=0",
+          "description": "A vast and serene lake known for its picturesque houseboat cruises and rich biodiversity."
+        },
+        {
+          "id": 602,
+          "name": "Thangassery Light House",
+          "image": "https://lh3.googleusercontent.com/d/11nbbudlL_NzpxBNSccaXSaOUl7JG521U?authuser=0",
+          "description": "A historic lighthouse offering panoramic views of the Arabian Sea and the Kollam cityscape."
+        },
+        {
+          "id": 603,
+          "name": "Kollam Beach",
+          "image": "https://lh3.googleusercontent.com/d/12PXw9c3cmJ3E4jTAg2WIyxL4v51yn1_j?authuser=0",
+          "description": "A tranquil beach with golden sands, perfect for relaxation, evening walks, and enjoying the sunset."
+        },
+        {
+          "id": 604,
+          "name": "Palaruvi Waterfalls",
+          "image": "https://lh3.googleusercontent.com/d/13-4UWzVJyOIwspR37VajTSKu_IFyo4Dw?authuser=0",
+          "description": "A stunning waterfall cascading from about 300 feet, surrounded by lush greenery, ideal for picnics and a refreshing dip."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "https://lh3.googleusercontent.com/d/109XPsDW0NeoXZbsDhjk11Dk-sSfuLddb?authuser=0",
+      "title": "Kottayam",
+      "description": "Famous for its rubber plantations and literacy.",
+      "long_description": "Kottayam district is renowned for its rubber plantations, vibrant literary culture, and scenic landscapes.",
+      "places_to_visit": [
+        {
+          "id": 701,
+          "name": "Kumarakom Bird Sanctuary",
+          "image": "https://lh3.googleusercontent.com/d/11_aQka9Sidr52gHhH8kHbV23JJbbG1O0?authuser=0",
+          "description": "A bird watcher's paradise, located on the banks of Vembanad Lake, home to a variety of resident and migratory birds."
+        },
+        {
+          "id": 702,
+          "name": "Ettumanoor Mahadeva Temple",
+          "image": "https://lh3.googleusercontent.com/d/11M2cTpNG217Y1eVS8ECRi_hYcxuTpZwm?authuser=0",
+          "description": "An ancient Shiva temple known for its Kerala-style architecture, vibrant murals, and annual festival."
+        },
+        {
+          "id": 703,
+          "name": "Vembanad Lake",
+          "image": "https://lh3.googleusercontent.com/d/13HJOOLhtZe93DBt4cIC7n7WIMdKEf9Ge?authuser=0",
+          "description": "The largest lake in Kerala, offering serene boat rides, fishing, and bird watching opportunities."
+        },
+        {
+          "id": 704,
+          "name": "Illikkal Kallu",
+          "image": "https://lh3.googleusercontent.com/d/12WT-hltitNylBSnL8ff7Oy3Bzd9iuSuO?authuser=0",
+          "description": "A popular trekking destination offering panoramic views of the Western Ghats and a thrilling trekking experience."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "https://lh3.googleusercontent.com/d/10J47VSYqV2rfnXc4U_fCQCwtVkVJstzM?authuser=0",
+      "title": "Kozhikode",
+      "description": "Known for its historical significance and cuisine.",
+      "long_description": "Kozhikode district is famed for its rich history, cultural heritage, and delectable Malabar cuisine.",
+      "places_to_visit": [
+        {
+          "id": 801,
+          "name": "Kozhikode Beach",
+          "image": "https://lh3.googleusercontent.com/d/11G6M_8-P3Z5PqHwuaeYy1805rw4kFzOK?authuser=0",
+          "description": "A serene beach with golden sands, known for its beautiful sunsets and a historic lighthouse."
+        },
+        {
+          "id": 802,
+          "name": "Beypore",
+          "image": "https://lh3.googleusercontent.com/d/11HxT_X3DbJnxcsS7EJCz2ej-JKrlHE41?authuser=0",
+          "description": "A coastal town famous for its traditional shipbuilding industry and scenic beach, offering insights into ancient craftsmanship."
+        },
+        {
+          "id": 803,
+          "name": "Mananchira Square",
+          "image": "https://lh3.googleusercontent.com/d/12iTbPdzXW6bsymAPfTbcYmqFvpvleNaT?authuser=0",
+          "description": "A historic park in the city center, surrounded by important landmarks and offering a tranquil space for relaxation."
+        },
+        {
+          "id": 804,
+          "name": "Kappad Beach",
+          "image": "https://lh3.googleusercontent.com/d/12_58hOAYuIeiB_cJ22tmvP5Kgo3qxHyI?authuser=0",
+          "description": "A historic beach where Vasco da Gama first landed in 1498, known for its scenic beauty and historical significance."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "https://lh3.googleusercontent.com/d/10TAGTg2hUUdKOsvzYPYQ8fFk7DCmWJt-?authuser=0",
+      "title": "Malappuram",
+      "description": "Famous for its cultural heritage and festivals.",
+      "long_description": "Malappuram district is renowned for its rich cultural heritage, vibrant festivals, and religious diversity.",
+      "places_to_visit": [
+        {
+          "id": 901,
+          "name": "Kodikuthimala",
+          "image": "https://lh3.googleusercontent.com/d/11QYdNDXzwpAQXxaI4BM9WUcQShIUO2PV?authuser=0",
+          "description": "Trek through the scenic hills of Kodikuthimala and enjoy breathtaking views."
+        },
+        {
+          "id": 902,
+          "name": "Kottakkunnu",
+          "image": "https://lh3.googleusercontent.com/d/11UXeEAJCC_jbRqLZ4ClY1ms0eBD01M-i?authuser=0",
+          "description": "Visit the Kottakkunnu hilltop park for panoramic views of the city."
+        },
+        {
+          "id": 903,
+          "name": "Kadalundi Bird Sanctuary",
+          "image": "https://lh3.googleusercontent.com/d/12XFqxYUTCwtksfGYu4XyKCVBz0Hzet3v?authuser=0",
+          "description": "A picturesque bird sanctuary located on the estuary of the Kadalundi River, home to a variety of resident and migratory birds."
+        },
+        {
+          "id": 904,
+          "name": "Nilambur Teak Museum",
+          "image": "https://lh3.googleusercontent.com/d/12xr7ejzV-vNIlNY-y5B_cRj9upPIXiig?authuser=0",
+          "description": "The world's first teak museum, offering comprehensive information on the history and cultivation of teak, surrounded by teak plantations."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "https://lh3.googleusercontent.com/d/10XGBa2RwnW2E8iKSywFe2_NarC9BRqXI?authuser=0",
+      "title": "Palakkad",
+      "description": "Known as the granary of Kerala.",
+      "long_description": "Palakkad district is known as the granary of Kerala due to its extensive paddy fields and agricultural productivity.",
+      "places_to_visit": [
+        {
+          "id": 1001,
+          "name": "Palakkad Fort",
+          "image": "https://lh3.googleusercontent.com/d/11NT9JigggWc5OdsWY0CTRhxanfXVBLyd?authuser=0",
+          "description": "A well-preserved fort built by Hyder Ali in 1766, offering historical insights and panoramic views of the surrounding landscape."
+        },
+        {
+          "id": 1002,
+          "name": "Silent Valley National Park",
+          "image": "https://lh3.googleusercontent.com/d/11gnOsSvvHE2VQRjqsoeehDAf9UkR_r2Z?authuser=0",
+          "description": "A biodiversity hotspot and part of the Nilgiri Biosphere Reserve, home to endangered species and offering trekking and nature walk opportunities."
+        },
+        {
+          "id": 1003,
+          "name": "Malampuzha Dam",
+          "image": "https://lh3.googleusercontent.com/d/12f3WSvV-1V0miDpa2F3N7GaXLyMBSU4n?authuser=0",
+          "description": "A popular picnic spot near the Western Ghats, featuring beautiful gardens, a rock garden, and an amusement park."
+        },
+        {
+          "id": 1004,
+          "name": "Parambikulam Wildlife Sanctuary",
+          "image": "https://lh3.googleusercontent.com/d/13-ekpSQxh5naMT1aSeVyqi83LX-DQhn3?authuser=0",
+          "description": "A scenic sanctuary on the Kerala-Tamil Nadu border, known for its rich biodiversity and offering wildlife safaris, trekking, and camping."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "https://lh3.googleusercontent.com/d/10n7hL2901D2gbCIPfQZkfjhOSLwMuRDP?authuser=0",
+      "title": "Pathanamthitta",
+      "description": "Famous for pilgrimage sites and festivals.",
+      "long_description": "Pathanamthitta district is famous for its religious significance, vibrant festivals, and scenic landscapes.",
+      "places_to_visit": [
+        {
+          "id": 1101,
+          "name": "Sabarimala Sree Ayyappa Temple",
+          "image": "https://lh3.googleusercontent.com/d/11gPAE0P0I5W7OiZTiff3kfjYTjrgySNC?authuser=0",
+          "description": "One of the most renowned pilgrimage sites in India, dedicated to Lord Ayyappa and situated amidst the dense forests of the Western Ghats."
+        },
+        {
+          "id": 1102,
+          "name": "Perunthenaruvi Waterfall",
+          "image": "https://lh3.googleusercontent.com/d/11fqC_xUaCCgfE0lXcs2Lq2K9KETTN8Sq?authuser=0",
+          "description": "A scenic waterfall on the banks of the Pamba River, popular for picnics and nature walks."
+        },
+        {
+          "id": 1103,
+          "name": "Gavi",
+          "image": "https://lh3.googleusercontent.com/d/12SIGnyfRdim-TC6_YRGe-p1oQOYmg8t3?authuser=0",
+          "description": "A picturesque village in the Western Ghats, known for its wildlife, trekking trails, and beautiful landscapes."
+        },
+        {
+          "id": 1104,
+          "name": "Aranmula",
+          "image": "https://lh3.googleusercontent.com/d/1290X4-Wng7VGYBpfID1y1hGKoxNeimDe?authuser=0",
+          "description": "A cultural hub famous for its traditional boat races and Aranmula Kannadi (metal mirrors)."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "https://lh3.googleusercontent.com/d/10ZDhgqmzQ0ghSD9hE0tZol-S3_yHZFi0?authuser=0",
+      "title": "Thiruvananthapuram",
+      "description": "The capital city of Kerala.",
+      "long_description": "Thiruvananthapuram, the capital city of Kerala, is known for its rich cultural heritage, historic monuments, and beautiful beaches.",
+      "places_to_visit": [
+        {
+          "id": 1201,
+          "name": "Sree Padmanabhaswamy Temple",
+          "image": "https://lh3.googleusercontent.com/d/11d-c0pxey3tEj15UWP_FmWLirei5-9cq?authuser=0",
+          "description": "An ancient temple dedicated to Lord Vishnu, known for its architectural grandeur and religious significance."
+        },
+        {
+          "id": 1202,
+          "name": "Kovalam Beach",
+          "image": "https://lh3.googleusercontent.com/d/11ZCezfoNSmJVPdSl7qUsflDll84zsMov?authuser=0",
+          "description": "A world-renowned beach known for its crescent-shaped shoreline, pristine waters, and vibrant nightlife."
+        },
+        {
+          "id": 1203,
+          "name": "Napier Museum",
+          "image": "https://lh3.googleusercontent.com/d/12sXj9AvOYqvf3Uc4KNk6mFgprdydXxI9?authuser=0",
+          "description": "Established in the 19th century, this museum houses a vast collection of archaeological and historical artifacts."
+        },
+        {
+          "id": 1204,
+          "name": "Ponmudi",
+          "image": "https://lh3.googleusercontent.com/d/13CBFq0VZVyjzWBkU8DEiPRPS566j7EEq?authuser=0",
+          "description": "A hill station near the city, offering stunning views of the Western Ghats, trekking trails, and a cool climate."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "image": "https://lh3.googleusercontent.com/d/10YxcrWXpCEu0KDNE-uyLkjvTIk8X_jKC?authuser=0",
+      "title": "Thrissur",
+      "description": "Cultural capital of Kerala, known for Thrissur Pooram.",
+      "long_description": "Thrissur district is the cultural capital of Kerala, renowned for its vibrant festivals, traditional arts, and historic temples.",
+      "places_to_visit": [
+        {
+          "id": 1301,
+          "name": "Vadakkunnathan Temple",
+          "image": "https://lh3.googleusercontent.com/d/11okEqSdEfArI-LNG9TwtFlnrXWDecNA7?authuser=0",
+          "description": "An ancient Shiva temple known for its magnificent architecture and the annual Thrissur Pooram festival."
+        },
+        {
+          "id": 1302,
+          "name": "Thrissur Zoo",
+          "image": "https://lh3.googleusercontent.com/d/11ylCh5sVUz0WLjLL3y-GLU6tCOX081Jc?authuser=0",
+          "description": "Explore the Thrissur Zoo and witness a variety of wildlife species."
+        },
+        {
+          "id": 1303,
+          "name": "Athirappilly Waterfalls",
+          "image": "https://lh3.googleusercontent.com/d/12JC_mQt3VqJqsE-irtGI8p_e2g_7okmA?authuser=0",
+          "description": "A breathtaking waterfall often referred to as the 'Niagara of India', located amidst lush greenery."
+        },
+        {
+          "id": 1304,
+          "name": "Guruvayur Temple",
+          "image": "https://lh3.googleusercontent.com/d/12W2RR8y8i11BUIKWM58Nv12Oijltn_iS?authuser=0",
+          "description": "An important pilgrimage site dedicated to Lord Krishna, attracting devotees from all over India."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "image": "https://lh3.googleusercontent.com/d/10aIb4BXP7ZczwecE-DSokL19uE4dHjM3?authuser=0",
+      "title": "Wayanad",
+      "description": "Famous for its scenic beauty and wildlife.",
+      "long_description": "Wayanad district is renowned for its lush green landscapes, mist-clad hills, and diverse wildlife.",
+      "places_to_visit": [
+        {
+          "id": 1401,
+          "name": "Edakkal Caves",
+          "image": "https://lh3.googleusercontent.com/d/11KQ6XbjP0KaISV8FXiyI1JLBw5PyJXl-?authuser=0",
+          "description": "Explore the ancient Edakkal Caves known for their Neolithic petroglyphs."
+        },
+        {
+          "id": 1402,
+          "name": "Wayanad Wildlife Sanctuary",
+          "image": "https://lh3.googleusercontent.com/d/11ySjgNRfGGUC361vCBxAzBQHn5UUsO-r?authuser=0",
+          "description": "Discover the rich biodiversity of Wayanad Wildlife Sanctuary."
+        }
+      ]
+    }
+  ]
+}
