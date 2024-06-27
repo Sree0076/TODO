@@ -12,3 +12,12 @@ i
   width: 100%;
   margin-left: 14px;
 }
+.disabled-checkbox .mat-checkbox {
+  background-color: rgba(199, 17, 17, 0.913); /* Gray background for disabled checkbox */
+  color: red;
+}
+.spinner
+{
+  margin-left: 50%;
+  margin-top: 15%;
+}

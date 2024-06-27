@@ -5,6 +5,7 @@ import {SelectionModel} from '@angular/cdk/collections';
 import { HttpService } from '../../services/http.service';
 import { CommonModule } from '@angular/common';
 import {MatIconModule} from '@angular/material/icon';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 export interface Todos {
   id:number
@@ -16,15 +17,16 @@ export interface Todos {
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MatTableModule, MatCheckboxModule,CommonModule,MatIconModule],
+  imports: [MatTableModule, MatCheckboxModule,CommonModule,MatIconModule,MatProgressSpinnerModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })export class HomeComponent  {
+isLoading: boolean=true;
 deleteRow(_t52: any) {
 throw new Error('Method not implemented.');
 }
-editRow(_t52: any) {
-throw new Error('Method not implemented.');
+editRow(row: any) {
+
 }
   todos: Todos[] = [];
   displayedColumns: string[] = ['select', 'Task', 'status', 'actions'];
@@ -32,19 +34,17 @@ throw new Error('Method not implemented.');
   selection = new SelectionModel<Todos>(true, []);
 
   constructor(private httpService: HttpService) {
-    this.dataSource = new MatTableDataSource<Todos>(this.todos); // Initialize with empty array
+    this.dataSource = new MatTableDataSource<Todos>(this.todos);
   }
 
   ngOnInit() {
     this.httpService.getTodos().subscribe(
       (data) => {
         this.todos = data.todos;
-        this.dataSource.data = this.todos; // Assign fetched data to dataSource
+        this.isLoading=false;
+        this.dataSource.data = this.todos;
         console.log('Fetched todos:', this.todos);
       },
-      (error) => {
-        console.error('Error fetching todos:', error);
-      }
     );
   }
 
@@ -61,7 +61,11 @@ throw new Error('Method not implemented.');
       this.selection.clear();
       return;
     }
-    this.selection.select(...this.dataSource.data);
+    this.dataSource.data.forEach(row => {
+      if (!row.completed) {
+        this.selection.select(row);
+      }
+    });
   }
 
   /** The label for the checkbox on the passed row */
@@ -78,10 +82,17 @@ throw new Error('Method not implemented.');
 
   toggleCheckbox(row: Todos, event: MatCheckboxChange) {
     if (this.isCheckboxDisabled(row)) {
-      event.source.checked = false;
+      event.source.checked = true;
     } else {
       this.selection.toggle(row); // Allow toggling selection if not disabled
     }
+  }
+  isChecked(row: Todos):any
+  {
+    if (this.isCheckboxDisabled(row)) {
+      return true
+    }
+
   }
 
 
